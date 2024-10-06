@@ -1,0 +1,200 @@
+nav {
+    width: 100%;
+    background-color: #fff; 
+    overflow: hidden; 
+    padding: 10px 0; 
+}
+
+nav .logo {
+    float: left; 
+    width: 70px; 
+    height: auto; 
+    margin-left: 20px; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right; 
+}
+
+nav ul li {
+    float: left; 
+    margin-left: 85px; 
+}
+
+nav ul li a {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    text-align: center;
+    line-height: 60px; 
+    height: 60px;
+    text-decoration: none;
+    color: gray; 
+    font-weight: bold;
+    padding: 0 15px; 
+}
+
+nav ul li a.signup {
+    background-color: #ff6347;
+    color: #fff;
+    
+border-radius: 200px;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+
+nav ul li a.login {
+    background-color: #ff6347; 
+    color: #fff;
+   
+border-radius: 200px;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+
+nav ul li a:hover {
+    background-color: #ddd; 
+    color: #333;
+}
+
+.container img {
+    width: 100%;
+    height: 700px;
+}
+
+.overlay {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 80%; 
+}
+
+.overlay h1 {
+    margin: 0 0 10px 0;
+    font-size: 30px;
+}
+
+.overlay p {
+    margin: 0;
+    font-size: 1.25rem;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8480805a;
+}
+
+.about-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.about-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 60%;
+    background-image: url(../image/joshua-earle--87JyMb9ZfU-unsplash.jpg); 
+    background-size: cover;
+    background-position: center;
+}
+
+.about-content {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    width: 50%;
+    background-color: white;
+    padding: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.about-content h2 {
+    margin-top: 0;
+    
+}
+
+.cont {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(../image/manik-rathee-a8YV2C3yBMk-unsplash.jpg) no-repeat center center/cover;
+}
+.title2 {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    color: white;
+    font-size: 2.5rem;
+}
+.content2 {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    color: white;
+    max-width: 40%;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.button2 {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    padding: 10px 20px;
+    background-color: #FF4C4C;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.button2:hover {
+    background-color: #ff1c1c;
+}
+.team {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+}
+
+.team h2 {
+    margin-bottom: 20px;
+}
+
+.team figure {
+    display: inline-block;
+    margin: 0 100px;
+    text-align: center;
+}
+
+.team figure img {
+    
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.team figure figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+h1{
+    font-size: 30px;
+    margin-top: 150px;
+    margin-left: 400px;
+}
+
+
+
